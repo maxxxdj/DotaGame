@@ -15,13 +15,13 @@ Example: "Hero Rhasta Intelligence" - A new intelligence hero is created - Rhast
 "Hero Rikimaru Agility" - A new agility hero is created - Rikimaru.
 
 Adding a new item:
-"Item" + "TYPE YOUR HERO NAME" + "TYPE YOUR ITEM NAME" + "Strength Bonus(Digit)" + "Agility Bonus(Digit)" + "Intelligence Bonus(Digit)" + "HitPoints Bonus(Digit)" + "Damage Bonus(Digit)";
-Example: "Item Rhasta Powerhat 10 10 30 100 50" - A new item is added to the hero. His stats are improved by the given item's specifics.
+"Item" + "TYPE YOUR ITEM NAME" + "TYPE YOUR HERO NAME" + "Strength Bonus(Digit)" + "Agility Bonus(Digit)" + "Intelligence Bonus(Digit)" + "HitPoints Bonus(Digit)" + "Damage Bonus(Digit)";
+Example: "Item Powerhat Rhasta 10 10 30 100 50" - A new item is added to the hero. His stats are improved by the given item's specifics.
 
 
 Adding a new recipe:
 "Recipe" + "TYPE YOUR HERO NAME" + "TYPE YOUR RECIPE NAME" + "Strength Bonus(Digit)" + "Agility Bonus(Digit)" + "Intelligence Bonus(Digit)" + "HitPoints Bonus(Digit)" + "Damage Bonus(Digit)" + "varargs of required items(String)";
-Example: "Recipe Rhasta Powerhat2 20 20 60 300 150" - A new special item is added to the hero. His stats are improved by the given item's specifics.
+  Example: "Recipe PowerhatUpgraded Rhasta 20 20 60 300 150 Powerhat" - A new special item is added to the hero. His stats are improved by the given item's specifics.
 
 
 Attacking a hero:
